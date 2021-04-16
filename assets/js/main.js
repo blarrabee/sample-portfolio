@@ -34,16 +34,12 @@ if(mybutton) {
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
-        <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
-        <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="skill.html">Skills</a></li>
+
         <li><a class="white-text" href="index.html">Blog</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
@@ -68,11 +64,9 @@ let header = $(`
 <ul class="sidenav" id="mobile-demo">
 <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
 <li><a href="index.html">Home</a></li>
-// <li><a href="experience.html">Experience</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="research.html">Research</a></li>
+
 <li><a href="education.html">Education</a></li>
-<li><a href="skill.html">Skills</a></li>
+
 <li><a href="index.html">Blog</a></li>
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
@@ -96,7 +90,7 @@ let footer = $(`
 <footer class="webintern-footer">
     <div class="footer-left">
       <div class="footer-text">
-        <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
+        <p></p>
       </div>
       <div class="footer-icons">
       <a href="#" class="linkedin sub-footer-icon">
@@ -111,24 +105,7 @@ let footer = $(`
         <a href="#" class="email-icon sub-footer-icon" >
         <i id="mail" class="fa fa-envelope" ></i>
         </a>
-        <a href="#" class="kaggle sub-footer-icon" >
-        <i class="fab fa-kaggle" id="kaggle-icon" ></i>
-        </a> 
-        <!-- <a href="#" class="google-scholar sub-footer-icon">
-        <i class="ai ai-google-scholar-square ai-3x" ></i>
-        </a>
-         <a href="#" class="leetcode sub-footer-icon">
-        <span class="iconify" data-icon="cib:leetcode" data-inline="false"></span>
-        </a>
-        <a href="#" class="codeforces sub-footer-icon">
-        <span class="iconify" data-icon="simple-icons:codeforces" data-inline="false"></span>
-        </a>
-        <a href="#" class="dribbble sub-footer-icon">
-              <i class="fab fa-dribbble"></i>
-            </a>
-            <a href="#" class="instagram sub-footer-icon">
-            <i class="fab fa-instagram"></i>
-          </a>  -->
+        
         </div>
     </div>
     <div class="footer-right">
